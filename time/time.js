@@ -52,3 +52,11 @@ setTimeout(() => {
 	container.innerText = "STAR.";
 	container.style.fontSize = "500px";
 }, 22000)
+setTimeout(() => {
+    container.innerText = "";
+    let img = document.createElement("img");
+    img.src = "https://fbi.cults3d.com/uploaders/15008782/illustration-file/869010b7-0dd9-4f4d-b5ef-6202b311198e/deathstar.png"; 
+    img.style.width = "100%"; 
+    img.style.height = "108%";
+    container.appendChild(img);
+}, 23000);
