@@ -12,3 +12,7 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.container {
+	line-height: 1em;
+	text-align: center;
+}
