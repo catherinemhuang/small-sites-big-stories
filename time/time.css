@@ -4,11 +4,18 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: sans-serif;
-	background-color: hsl(144deg, 100%, 90%);
+	font-family: 'Franklin Gothic Medium';
+	background-color: black;
 	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	color: #FFE81F;
+}
+.container {
+	line-height: 1em;
+	text-align: center;
+	transform: rotateX(25deg);
+	
 }

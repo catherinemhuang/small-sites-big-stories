@@ -1,6 +1,6 @@
 console.log("This is the randomness site!");
 let container = document.querySelector('.container');
-container.style.transform = `rotate(${Math.random()*90-45}deg) scale(${Math.random()*5+3})`;
+container.style.transform = `rotate(${Math.random()*95-45}deg) scale(${Math.random()*8+3})`;
 
 let randomWords = [
 	"😂",

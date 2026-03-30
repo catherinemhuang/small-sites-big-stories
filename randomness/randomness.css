@@ -5,8 +5,8 @@
 }
 body {
 	font-family: sans-serif;
-	background-color: hsl(72deg, 100%, 90%);
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	background-color: hsl(206, 100%, 90%);
+	height: 100dvh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
