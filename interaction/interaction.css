@@ -3,12 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-	font-family: sans-serif;
-	background-color: hsl(216deg, 100%, 90%);
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+
+.block {
+    width: 100px;
+    height: 100px;
+    background: coral;
+    cursor: grab;
 }
