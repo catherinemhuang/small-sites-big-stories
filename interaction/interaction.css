@@ -1,12 +1,16 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+* 
 
 .block {
-    width: 100px;
-    height: 100px;
-    background: coral;
-    cursor: grab;
+  width: 200px;
+  height: 200px;
+  background: black;
+  cursor: grab;
+  border-radius: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-weight: bold;
 }
