@@ -18,9 +18,18 @@ body {
 	align-items: end;
 	height: 100dvh;
 	width: 150dvh;
+	
 
 }
 .container div {
 	border-radius: 50%;
 	transition: 4s;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: serif; 
+	color: black;
+	font-size: 20px;
 }
