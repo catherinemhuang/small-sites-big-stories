@@ -43,3 +43,7 @@ console.log("This is the loop site!");
 		}
 
 		setInterval(changeSizes, 500);
+
+        setTimeout(() => {
+		document.body.style.backgroundColor = "gray";
+	}, 100); // small delay so transition applies

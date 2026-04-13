@@ -6,11 +6,12 @@
 body {
 	font-family: sans-serif;
 	background-color: hsl(288deg, 100%, 90%);
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	height: 100dvh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	transition: background-color 5s;
 }
 .container {
 			display: flex;
