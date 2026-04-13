@@ -1,17 +1,17 @@
 console.log("This is the loop site!");
-		let container = document.querySelector('.container');
+let container = document.querySelector('.container');
 
-		let i = 0;
-		while (i < 100) {
+let i = 0;
+while (i < 100) {
 
-			let randomSize = Math.random() * 100;
+    let randomSize = Math.random() * 200;
 
-			let r = Math.floor(Math.random() * 100);
-			let g = Math.floor(Math.random() * 100);
-			let b = Math.floor(Math.random() * 255);
-			let opacity = Math.random();
+    let r = Math.floor(Math.random() * 100);
+    let g = Math.floor(Math.random() * 100);
+    let b = Math.floor(Math.random() * 255);
+    let opacity = Math.random();
 
-			let newDiv = `
+    let newDiv = `
 				<div style="
 					width: ${randomSize}px;
 					height: ${randomSize}px;
@@ -19,31 +19,31 @@ console.log("This is the loop site!");
 				"></div>
 			`;
 
-			container.innerHTML += newDiv;
-			i++;
-		}
+    container.innerHTML += newDiv;
+    i++;
+}
 
-		function changeSizes() {
-			let allChildren = document.querySelectorAll('.container div');
+function changeSizes() {
+    let allChildren = document.querySelectorAll('.container div');
 
-			for (let i = 0; i < allChildren.length; i++) {
-				let child = allChildren[i];
+    for (let i = 0; i < allChildren.length; i++) {
+        let child = allChildren[i];
 
-				let randomSize = Math.random() * 100;
+        let randomSize = Math.random() * 100;
 
-				let r = Math.floor(Math.random() * 1);
-				let g = Math.floor(Math.random() * 1);
-				let b = Math.floor(Math.random() * 1);
-				let opacity = Math.random();
+        let r = Math.floor(Math.random() * 1);
+        let g = Math.floor(Math.random() * 1);
+        let b = Math.floor(Math.random() * 1);
+        let opacity = Math.random();
 
-				child.style.width = randomSize + "px";
-				child.style.height = randomSize + "px";
-				child.style.backgroundColor = `rgba(${r}, ${g}, ${b}, ${opacity})`;
-			}
-		}
+        child.style.width = randomSize + "px";
+        child.style.height = randomSize + "px";
+        child.style.backgroundColor = `rgba(${r}, ${g}, ${b}, ${opacity})`;
+    }
+}
 
-		setInterval(changeSizes, 1000);
+setInterval(changeSizes, 500);
 
-        setTimeout(() => {
-		document.body.style.backgroundColor = "gray";
-	}, 100); // small delay so transition applies
+setTimeout(() => {
+    document.body.style.backgroundColor = "gray";
+}, 100);
