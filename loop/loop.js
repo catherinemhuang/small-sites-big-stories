@@ -42,7 +42,7 @@ console.log("This is the loop site!");
 			}
 		}
 
-		setInterval(changeSizes, 500);
+		setInterval(changeSizes, 1000);
 
         setTimeout(() => {
 		document.body.style.backgroundColor = "gray";
