@@ -45,15 +45,13 @@ body {
 	flex-direction: column;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.211);
-;
 	display: flex;
 }
 
 .navbar a {
 	font-family: monotype;
 	display: block;
-	color: black;
+	color: rgba(0, 0, 0, 0.544);
 	text-align: center;
 	padding: 8px 20px;
 }
