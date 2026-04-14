@@ -1,18 +1,21 @@
-* {
 @font-face {
-	font-family: "MyFont";
-	src: url("assets/fonts/soloist1.ttf") format("type");	
+	font-family: "Soloist";
+	src: url("../assets/fonts/soloist/soloist1.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
+
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
-	font-family: 'MyFont';
+	font-family: "Soloist", sans-serif;
 	background-color: black;
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	height: 100dvh; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
