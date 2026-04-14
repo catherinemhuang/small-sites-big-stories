@@ -51,6 +51,5 @@ body {
 }
 
 .navbar a:hover {
-	background-color:yellow;
-	transform: scale(1.2);
+	transform: scale(2);
 }

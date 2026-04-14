@@ -40,7 +40,6 @@ body {
 	padding: 0;
 	display: flex;
 	background-color: hsla(58, 90%, 8%, 0.575);;
-
 }
 
 .navbar a {
@@ -52,5 +51,5 @@ body {
 }
 
 .navbar a:hover {
-	transform: scale(1.2);
+	transform: scale(2);
 }
