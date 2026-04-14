@@ -52,6 +52,5 @@ body {
 }
 
 .navbar a:hover {
-	background-color: hsla(210, 85%, 95%, 0.078);
 	transform: scale(1.2);
 }
