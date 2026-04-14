@@ -6,25 +6,56 @@
 body {
 	font-family: sans-serif;
 	background-color: hsl(206, 100%, 90%);
-	height: 100dvh;
+	min-height: 100dvh;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 24px;
 }
+
+.page-shell {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	width: min(92vw, 900px);
+}
+
+.emoji-stage {
+	width: 100%;
+	min-height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .container {
-	line-height: 1em;
+	width: 100%;
+	min-height: 320px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
+	line-height: 1;
+	overflow: hidden;
 }
+
+.emoji-display {
+	display: inline-block;
+	transform-origin: center;
+}
+
 .refresh-button {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	padding: 14px 28px;
-	border: 3px solid #FFE81F;
+	border: 3px solid white;
 	border-radius: 999px;
 	background: #111;
-	color: #FFE81F;
+	color: white;
 	text-decoration: none;
 	font-size: 26px;
 	letter-spacing: 0.08em;
@@ -35,12 +66,21 @@ body {
 
 .refresh-button:hover,
 .refresh-button:focus-visible {
-	background: #FFE81F;
+	background: white;
 	color: #111;
 	transform: translateY(-2px);
 }
 
 @media (max-width: 700px) {
+	.emoji-stage {
+		min-height: 52vh;
+		padding: 18px;
+	}
+
+	.container {
+		min-height: 220px;
+	}
+
 	.refresh-button {
 		font-size: 20px;
 		padding: 12px 22px;
