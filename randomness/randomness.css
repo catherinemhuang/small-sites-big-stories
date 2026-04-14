@@ -85,7 +85,6 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: hsl(206, 100%, 88%);
 	display: flex;
 }
 
@@ -98,6 +97,4 @@ body {
 }
 
 .navbar a:hover {
-	background-color: hsl(210, 86%, 95%);
-	transform: scale(1.2);
-}
+transform: scale(2) 2s ease;}
