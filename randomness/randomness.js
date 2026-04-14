@@ -3,7 +3,7 @@ let container = document.querySelector('.emoji-display');
 container.style.transform = 
 `rotate(${Math.random() * 95 - 45}deg) 
 scale(${Math.random() * 1 + 2})`;
-container.style.fontSize = `${Math.random() * 1 + 50}px`;
+container.style.fontSize = `${Math.random() * 1 + 40}px`;
 
 let randomWords = [
 	"😂",
