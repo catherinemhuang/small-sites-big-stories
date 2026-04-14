@@ -1,3 +1,9 @@
+@font-face {
+	font-family: "nirakolu";
+	src: url("../assets/fonts/nirakolu/Nirakolu.ttf")format("truetype");
+	font-weight: 100;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -55,6 +61,12 @@ body {
 	color: #111;
 }
 
+#refresh:hover {
+	background-color: black;
+	color: white;
+	transform: translateY(-2px);
+}
+
 @media (max-width: 700px) {
 	.emoji-stage {
 		min-height: 52vh;
@@ -66,4 +78,32 @@ body {
 		padding: 12px;
 	}
 
+}
+
+.navbar {
+	position: fixed;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: hsl(206, 100%, 88%);
+	display: flex;
+}
+
+.navbar a {
+	font-family: monotype;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 20px;
+}
+
+.navbar a:hover {
+	background-color: hsl(210, 86%, 95%);
+	transform: scale(1.2);
 }

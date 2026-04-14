@@ -33,3 +33,33 @@ body {
 	color: black;
 	font-size: 20px;
 }
+
+.navbar {
+	position: fixed;
+	top: 20px;
+	left: 1%;
+	z-index: 1000;
+}
+.navbar ul {
+	list-style-type: none;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.211);
+;
+	display: flex;
+}
+
+.navbar a {
+	font-family: monotype;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px 20px;
+}
+
+.navbar a:hover {
+	background-color: rgba(255, 255, 255, 0.793);
+;
+	transform: scale(1.2);
+}

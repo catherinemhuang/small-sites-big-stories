@@ -1,47 +1,57 @@
-@font-face{
+@font-face {
 	font-family: "nirakolu";
 	src: url("../assets/fonts/nirakolu/Nirakolu.ttf")format("truetype");
-font-weight: 100;}
+	font-weight: 100;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-weight: normal;
 }
+
 body {
 	font-family: monospace;
 	background: #EEAECA;
-	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);	height: 100dvh;
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+	height: 100dvh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
 }
+
 nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
 }
+
 q {
 	font-size: 50px;
 	font-family: "nirakolu";
-}	
+}
+
 z {
 	font-size: 30px;
 	font-family: "nirakolu";
 
 }
+
 a {
 	color: black;
 }
+
 p {
 	display: flex;
 	gap: 15px;
 	align-items: center;
 	justify-content: center;
 }
+
 nav {
 	display: flex;
 	flex-direction: column;
@@ -49,15 +59,18 @@ nav {
 	align-items: center;
 	justify-content: center;
 }
+
 a {
 	text-decoration: none;
 	padding: 10px 20px;
 	transition: font-size 1s, transform 0.5s;
 	display: flex;
 	align-items: center;
-	background-color: pink;	
+	background-color: pink;
 }
+
 a:hover {
 	background-color: white;
 	transform: scale(1.2) translateY(7px);
 }
+

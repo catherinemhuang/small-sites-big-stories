@@ -27,3 +27,31 @@ body {
 	transform: rotateX(25deg);
 	
 }
+.navbar {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	background-color: hsla(58, 90%, 8%, 0.575);;
+
+}
+
+.navbar a {
+	font-family: monotype;
+	display: block;
+	color: hsla(210, 85%, 95%, 0.283);;
+	text-align: center;
+	padding: 8px 20px;
+}
+
+.navbar a:hover {
+	background-color: hsla(210, 85%, 95%, 0.078);
+	transform: scale(1.2);
+}

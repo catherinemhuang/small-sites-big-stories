@@ -24,3 +24,7 @@ if (Math.random() < .5) {
 	let randomWord = randomWords[Math.floor(Math.random()*randomWords.length)];
 	container.innerHTML += " " + randomWord;
 }
+
+document.getElementById("refresh").addEventListener("click", function () {
+	location.reload();
+});
