@@ -1,7 +1,9 @@
 console.log("This is the randomness site!");
-let emojiDisplay = document.querySelector('.emoji-display');
-emojiDisplay.style.transform = `rotate(${Math.random() * 95 - 45}deg) scale(${Math.random() * 3 + 2})`;
-emojiDisplay.style.fontSize = `${Math.random() * 90 + 110}px`;
+let container = document.querySelector('.emoji-display');
+container.style.transform = 
+`rotate(${Math.random() * 95 - 45}deg) 
+scale(${Math.random() * 1 + 2})`;
+container.style.fontSize = `${Math.random() * 1 + 50}px`;
 
 let randomWords = [
 	"😂",
@@ -17,8 +19,8 @@ let randomWords = [
 ]
 let randomWord = randomWords[Math.floor(Math.random()*randomWords.length)];
 
-emojiDisplay.innerHTML = randomWord;
+container.innerHTML = randomWord;
 if (Math.random() < .5) {
 	let randomWord = randomWords[Math.floor(Math.random()*randomWords.length)];
-	emojiDisplay.innerHTML += " " + randomWord;
+	container.innerHTML += " " + randomWord;
 }
