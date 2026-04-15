@@ -6,27 +6,25 @@
 }
 body {
 	font-family: sans-serif;
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	height: 100dvh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 .block {
+	font-size: 100px;
   width: 150px;
   height: 150px;
-  background: orange;
-  cursor: grab;
-  border-radius: 10%;
+  background-image: url("poop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: black;
-  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-
 .navbar {
 	position: fixed;
 	bottom: 20px;
